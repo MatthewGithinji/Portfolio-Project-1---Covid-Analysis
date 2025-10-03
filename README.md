@@ -1,6 +1,6 @@
 🦠 COVID-19 Data Exploration and Analysis (PostgreSQL) 🦠
 
-This project explores the **COVID-19 pandemic dataset** using **PostgreSQL**. It focuses on analysing global cases, deaths, and vaccinations, to uncover trends and insights at both the country and continent level.
+This project explores the **COVID-19 pandemic dataset** using **PostgreSQL** and visualising these findings within **Tableau**. It focuses on analysing global cases, deaths, and vaccinations to uncover trends and insights at both the country and continent levels.
 
 The analysis is built using two main tables:
 
@@ -9,7 +9,7 @@ The analysis is built using two main tables:
 
 ---
 
-## 🔎 Queries & Analysis Overview
+## 🔎 Queries & Analysis Overview for Main SQL Script
 
 ### 1. **Data Selection**
 
@@ -84,5 +84,4 @@ Joined `covid_deaths` with `covid_vaccinations` to analyze vaccination rollouts:
 
 This dataset and queries can be extended into:
 
-* **Visualizations** in Tableau/Power BI (infection maps, vaccination progress dashboards)
 * **Comparative analysis** across economic/demographic indicators (e.g., GDP per capita vs death rates)
